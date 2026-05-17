@@ -18,7 +18,7 @@ def decrypt(text, shift):
     return encrypt(text, -shift)
 
 
-print("=== Caesar Cipher ===")
+print(" Caesar Cipher ")
 
 message = input("Enter message: ")
 shift = int(input("Enter shift value: "))
