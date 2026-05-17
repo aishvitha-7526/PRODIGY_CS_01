@@ -1,4 +1,3 @@
-# Caesar Cipher Program
 
 def encrypt(text, shift):
     result = ""
@@ -11,7 +10,7 @@ def encrypt(text, shift):
         else:
             result += char
 
-    return result
+    return result 
 
 
 def decrypt(text, shift):
